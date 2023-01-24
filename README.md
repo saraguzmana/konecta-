@@ -11,3 +11,9 @@
 - Abre tu navegador web y accede a "http://localhost/dashboard/konecta" para ver la aplicación en ejecución.
 
 > Nota: Asegúrate de tener tu servidor web y MySQL iniciados antes de acceder a la aplicación.
+
+---
+
+
+https://user-images.githubusercontent.com/39863674/214276194-ac04837f-23ba-4a5f-9dcf-d0c378849c83.mp4
+
