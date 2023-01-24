@@ -15,12 +15,10 @@ if (isset($_POST['insert'])) {
     )";
 
     $insert1 = mysqli_query($con, $insert);
-    if($insert1){
+    if ($insert1) {
         echo "Producto agregado";
     }
 }
-
-
 
 
 ?>
