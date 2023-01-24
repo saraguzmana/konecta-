@@ -42,8 +42,5 @@ $url_base = "http://localhost/dashboard/konecta/";
             </li>
 
         </ul>
-
-
-
     </nav>
     <main class="container">

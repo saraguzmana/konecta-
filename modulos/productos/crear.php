@@ -1,4 +1,4 @@
-<?php 
+<?php
 include("../../bd.php");
 
 
@@ -15,14 +15,13 @@ if (isset($_POST['insert'])) {
     )";
 
     $insert1 = mysqli_query($con, $insert);
-
 }
 
 
 
 ?>
 
-<?php 
+<?php
 $ROOT = '../../';
 include("../../templates/header.php");
 ?>
@@ -36,63 +35,55 @@ include("../../templates/header.php");
     <div class="card-body">
         <form action="crear.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre</label>
-              <input type="text"
-                class="form-control" name="nombre" id="nombre" aria-describedby="helpId" placeholder="Pan">
-             
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="helpId"
+                    placeholder="Pan">
             </div>
 
             <div class="mb-3">
-              <label for="referencia" class="form-label">Referencia</label>
-              <input type="text"
-                class="form-control" name="referencia" id="referencia" aria-describedby="helpId" placeholder="12345">
-             
+                <label for="referencia" class="form-label">Referencia</label>
+                <input type="text" class="form-control" name="referencia" id="referencia" aria-describedby="helpId"
+                    placeholder="12345">
             </div>
 
             <div class="mb-3">
-              <label for="precio" class="form-label">Precio</label>
-              <input type="text"
-                class="form-control" name="precio" id="precio" aria-describedby="helpId" placeholder="12000">
-             
+                <label for="precio" class="form-label">Precio</label>
+                <input type="text" class="form-control" name="precio" id="precio" aria-describedby="helpId"
+                    placeholder="12000">
             </div>
 
             <div class="mb-3">
-              <label for="peso" class="form-label">Peso (en gramos)</label>
-              <input type="text"
-                class="form-control" name="peso" id="peso" aria-describedby="helpId" placeholder="170">
-             
+                <label for="peso" class="form-label">Peso (en gramos)</label>
+                <input type="text" class="form-control" name="peso" id="peso" aria-describedby="helpId"
+                    placeholder="170">
+
             </div>
 
             <div class="mb-3">
-              <label for="categoria" class="form-label">Categoria</label>
-              <input type="text"
-                class="form-control" name="categoria" id="categoria" aria-describedby="helpId" placeholder="Salado">
-             
+                <label for="categoria" class="form-label">Categoria</label>
+                <input type="text" class="form-control" name="categoria" id="categoria" aria-describedby="helpId"
+                    placeholder="Salado">
             </div>
 
             <div class="mb-3">
-              <label for="stock" class="form-label">Stock</label>
-              <input type="text"
-                class="form-control" name="stock" id="stock" aria-describedby="helpId" placeholder="666">
-             
+                <label for="stock" class="form-label">Stock</label>
+                <input type="text" class="form-control" name="stock" id="stock" aria-describedby="helpId"
+                    placeholder="666">
             </div>
-
 
             <div class="mb-3">
-              <label for="fecha" class="form-label">Fecha de creación</label>
-              <input type="date" class="form-control" name="fecha" id="fecha" aria-describedby="emailHelpId" placeholder="Fecha de creación">
+                <label for="fecha" class="form-label">Fecha de creación</label>
+                <input type="date" class="form-control" name="fecha" id="fecha" aria-describedby="emailHelpId"
+                    placeholder="Fecha de creación">
             </div>
-
-            
 
             <button type="submit" name="insert" class="btn btn-success">Agregar registro</button>
             <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar</a>
-
         </form>
     </div>
 </div>
 
-<?php 
+<?php
 $ROOT = '../../';
 include("../../templates/footer.php");
 ?>
