@@ -34,8 +34,4 @@ $eliminar = mysqli_query($con, $borrar);
         </center>
     </div>
 </div>
-
-<?php
-$ROOT = '../../';
-include("../../templates/footer.php");
-?>
+</br></br></br>

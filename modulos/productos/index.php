@@ -63,10 +63,7 @@ include("../../templates/header.php");
 </div>
 </br>
 
-<a name="registro" id="registro" class="btn btn-ag" href="crear.php" role="button">Agregar registro</a>
-<a name="volver" id="volver" class="btn btn-v" href="crear.php" role="button">Volver</a>
+<a name="registro" id="registro" class="btn btn-ag" href="crear.php" role="button">Agregar nuevo producto</a>
+<a name="volver" id="volver" class="btn btn-v" href="../../index.php" role="button">Volver</a>
 
-
-
-
-<?php include("../../templates/footer.php") ?>
+</br></br></br>

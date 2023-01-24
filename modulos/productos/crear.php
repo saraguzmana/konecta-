@@ -15,7 +15,11 @@ if (isset($_POST['insert'])) {
     )";
 
     $insert1 = mysqli_query($con, $insert);
+    if($insert1){
+        echo "Producto agregado";
+    }
 }
+
 
 
 
@@ -77,13 +81,9 @@ include("../../templates/header.php");
                     placeholder="Fecha de creación">
             </div>
 
-            <button type="submit" name="insert" class="btn btn-success">Agregar registro</button>
-            <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar</a>
+            <button type="submit" name="insert" class="btn btn-ag">Agregar registro</button>
+            <a name="" id="" class="btn btn-v" href="index.php" role="button">Cancelar</a>
         </form>
     </div>
 </div>
-
-<?php
-$ROOT = '../../';
-include("../../templates/footer.php");
-?>
+</br></br></br>

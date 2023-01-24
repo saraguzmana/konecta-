@@ -14,7 +14,7 @@ body {
 
 .a {
   color: #b8d9ff !important;
-  font-size: 20px !important;
+  font-size: 17px !important;
   margin-top: 5px;
 }
 
@@ -65,4 +65,12 @@ hr {
   color: white !important;
   border: 2px solid #00254F !important;
   width: 49%;
+}
+
+.h1-index{
+  margin-top: 10px;
+}
+
+.p-index{
+  font-size: 30px;
 }

@@ -41,6 +41,7 @@ if (isset($_POST["actualizar"])) {
 $ROOT = '../../';
 include("../../templates/header.php");
 ?>
+</br></br>
 <div class="card">
 
     <div class="card-header">
@@ -103,12 +104,9 @@ include("../../templates/header.php");
                     aria-describedby="emailHelpId" placeholder="Fecha de creación">
             </div>
 
-            <button type="submit" name="actualizar" class="btn btn-success">Agregar registro</button>
-            <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar</a>
+            <button type="submit" name="actualizar" class="btn btn-ag">Editar registro</button>
+            <a name="" id="" class="btn btn-v" href="index.php" role="button">Cancelar</a>
         </form>
     </div>
 </div>
-<?php
-$ROOT = '../../';
-include("../../templates/footer.php");
-?>
+</br></br></br>
